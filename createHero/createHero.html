@@ -1,0 +1,8 @@
+<div>
+    Name: <input type="text" ng-model="input.nameField"><br>
+    Stat Points Remaining: {{ remainingStatPoints }} <br>
+    Strength: <span class="ui button" ng-click="changeStr(-1)">&lt; </span> {{ hero.str }} <span class="ui button" ng-click="changeStr(1)"> &gt;</span><br>
+    Agility: <span class="ui button" ng-click="changeAgi(-1)">&lt; </span> {{ hero.agi }} <span class="ui button" ng-click="changeAgi(1)"> &gt;</span><br>
+    Intelligence: <span class="ui button" ng-click="changeInt(-1)">&lt; </span> {{ hero.int }} <span class="ui button" ng-click="changeInt(1)"> &gt;</span><br>
+    <div class="ui button" ng-click="goMainMenu()">Next</div>
+</div>

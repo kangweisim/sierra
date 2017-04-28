@@ -1,0 +1,39 @@
+.town-image {
+    background-image: url('townImage.jpg') !important;
+    background-size: cover !important;
+    height: 100% !important;
+}
+
+#sleepMenuButton {
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
+#shopMenuButton {
+    position: absolute;
+    top: 220px;
+    left: 80px;
+}
+
+#treeMenuButton {
+    position: absolute;
+    top: 380px;
+    left: 740px;
+}
+
+#messageBox {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #f9f9f9;
+    
+}
+
+.messagePic {
+    height: 70px;
+    width: 70px;
+}
+

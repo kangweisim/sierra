@@ -1,0 +1,26 @@
+Backstory:
+    Ravaged by war with the orcs, the civilization of Sierra has whittled into its last town, Foxtrot. In the last great battle of Yosemite, the other heroes of Sierra were obliterated in a bloodbath. You are Sierra's last remaining surviving hero. In 100 days, the orcs will march into Foxtrot to eliminate Sierra from the face of the planet. Do you have what it takes to rally the town for the last battle to repel the orc invasion? You have 100 days... starting from now.
+
+1. welcome page -> backstory -> create hero
+    - hero name
+    - hero stats
+        
+2. main page
+    2.0 how to play
+    2.1 days to last battle
+    2.2 hero skills
+    2.3 hero items/shop
+    2.4 hero stats
+    2.5 train hero
+    2.6 fight monsters
+    
+3. the last battle
+    -> orc lord
+
+4. end
+    
+known bugs:
+    1. buttons not responsive. when page is shrunk, buttons (position: absolute) will jump randomly
+    2. dimmer not showing overlay text
+    3. little fuzzy line at the btm of segment
+    

@@ -1,0 +1,12 @@
+<div class="ui card">
+    <div class="content">
+        <div class="ui center aligned container">
+            <h3>Items</h3>
+            Armor: {{ hero.equipment.armor.name }}<br>
+            Weapon: {{ hero.equipment.weapon.name }}<br><br>
+            Inventory: <br>
+            <span ng-repeat="item in hero.items">{{item.name}}<i ng-class="{'icon legal': item.type === 'Weapon', 'icon protect': item.type === 'Armor'}"></i>{{$last ? '' : ', '}}<br></span><br>
+            Gold: {{ hero.gold }} <i class="green money icon"></i><br>
+        </div>
+    </div>
+</div>
